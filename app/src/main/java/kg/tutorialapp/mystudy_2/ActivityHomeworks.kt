@@ -4,12 +4,13 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import kotlinx.android.synthetic.main.activity_homeworks.*
 
 class ActivityHomeworks : AppCompatActivity() {
     lateinit var btnHw_41: Button
     lateinit var btnHw_42: Button
     lateinit var btnHw_43: Button
-    lateinit var btnHw_44: Button
+    lateinit var btnHw_46: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,6 +18,16 @@ class ActivityHomeworks : AppCompatActivity() {
         runHw_41()
         runHw_42()
         runHw_43()
+        runHw_46()
+    }
+
+    private fun runHw_46() {
+        btnHw_46 = findViewById(R.id.btn_hw_46)
+        btnHw_46.setOnClickListener{
+            val hwSharedPreferences = Intent(this, ActivitySharedPreferences::class.java)
+            startActivity(hwSharedPreferences)
+        }
+
     }
 
     private fun runHw_43() {

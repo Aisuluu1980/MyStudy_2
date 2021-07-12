@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyStudy_2">
-        <activity android:name=".ActivityRecyclerClickListener"></activity>
+        <activity android:name=".ActivitySharedPreferences"></activity>
+        <activity android:name=".ActivityRecyclerClickListener" />
         <activity android:name=".RecyclerActivity_HW_43" />
         <activity android:name=".ActivityNotifications" />
         <activity android:name=".ActivityRecyclerView" />

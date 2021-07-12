@@ -38,4 +38,7 @@
     <string name="details">Details</string>
     <string name="btn_hw_45">#45</string>
     <string name="add_btn">Add</string>
+    <string name="btn_hw_46">#46 Shared Preferences</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_delete">Удалить</string>
 </resources>
