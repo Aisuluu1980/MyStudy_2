@@ -9,6 +9,7 @@ class ActivityHomeworks : AppCompatActivity() {
     lateinit var btnHw_41: Button
     lateinit var btnHw_42: Button
     lateinit var btnHw_43: Button
+    lateinit var btnHw_44: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

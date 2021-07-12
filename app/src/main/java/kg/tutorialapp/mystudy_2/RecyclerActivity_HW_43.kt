@@ -20,7 +20,7 @@ class RecyclerActivity_HW_43 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recycler_hw_43)
         dataText = findViewById(R.id.recycler_edit)
-        btn_submit = findViewById(R.id.btn_recycler)
+        btn_submit = findViewById(R.id.btn_add_item)
         recyclerView = findViewById(R.id.recyclerView)
 
         myAdapter = MyAdaper2(this, myList)

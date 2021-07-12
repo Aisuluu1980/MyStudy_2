@@ -2,7 +2,7 @@
     <string name="app_name">MyStudy_2</string>
     <string name="main_text">Занятия и домашние задания с 41 - 50</string>
     <string name="lessons">Занятия</string>
-    <string name="homeworks">Домашние зядания</string>
+    <string name="homeworks">Домашние задания</string>
     <string name="text_hw">Домашние задания</string>
     <string name="btn_hw_41">#41 Drawable menu with fragments</string>
     <string name="btn_hw_42">"#42  Notifications "</string>
@@ -26,8 +26,9 @@
     <string name="view_holder" />
     <string name="noteficatoin"></string>
     <string name="btn_note">Note</string>
-    <string name="btn_43">#43 Recycler View Lqyout Manager</string>
-    <string name="btn_hw_43">#43 Recycler View EditText</string>
+    <string name="btn_43">#43 Recycler View Layout Manager</string>
+    <string name="btn_hw_43">#43 Recycler View EditText
+    #44 RecyclerView with Delete Function</string>
     <string name="input_data">Input Data</string>
     <string name="submit_data">Submit</string>
     <string name="btn_44">#44 RecyclerView with ClickListener</string>
@@ -35,4 +36,6 @@
     <string name="text_2" />
     <string name="text_3" />
     <string name="details">Details</string>
+    <string name="btn_hw_45">#45</string>
+    <string name="add_btn">Add</string>
 </resources>
