@@ -27,4 +27,7 @@
     <string name="noteficatoin"></string>
     <string name="btn_note">Note</string>
     <string name="btn_43">#43 Recycler View Lqyout Manager</string>
+    <string name="btn_hw_43">#43 Recycler View EditText</string>
+    <string name="input_data">Input Data</string>
+    <string name="submit_data">Submit</string>
 </resources>
