@@ -1,4 +1,4 @@
-<resources>
+<resources translatable="false">
     <string name="app_name">MyStudy_2</string>
     <string name="main_text">Lessons and homeworks 41 - 50</string>
     <string name="lessons">Lessons</string>
