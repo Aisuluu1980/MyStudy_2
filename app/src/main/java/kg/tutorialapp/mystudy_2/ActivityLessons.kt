@@ -8,12 +8,22 @@ import android.widget.Button
 class ActivityLessons : AppCompatActivity() {
     lateinit var btn_42: Button
     lateinit var btn_43: Button
+    lateinit var btn_44: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lessons)
         runLesson_42()
         runLesson_43()
+        runLesson_44()
+    }
+
+    private fun runLesson_44() {
+        btn_44 = findViewById(R.id.btn_44)
+        btn_44.setOnClickListener{
+            val recyclerListenerIntent = Intent(this, ActivityRecyclerClickListener::class.java)
+            startActivity(recyclerListenerIntent)
+        }
     }
 
     private fun runLesson_42() {

@@ -9,7 +9,9 @@ import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import kotlin.collections.ArrayList
 
-class MyAdaper2(private val context: Context, private val myList: ArrayList<String>): RecyclerView.Adapter<MyAdaper2.ViewHolder>() {
+class MyAdaper2(private val context: Context, private val myList: ArrayList<String>): RecyclerView.Adapter<MyAdaper2.ViewHolder>(){
+
+
     inner class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         fun bind(myItem: String) {
             val tvTitle = itemView.findViewById<TextView>(R.id.text_viewholder)
@@ -19,6 +21,7 @@ class MyAdaper2(private val context: Context, private val myList: ArrayList<Stri
             }
         }
     }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val myListItem = LayoutInflater.from(context).inflate(R.layout.item_myviewholder, parent, false)
         return ViewHolder(myListItem)
@@ -27,7 +30,6 @@ class MyAdaper2(private val context: Context, private val myList: ArrayList<Stri
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bind(myList[position])
     }
-
     override fun getItemCount(): Int {
         return myList.count()
     }

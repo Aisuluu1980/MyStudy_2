@@ -30,4 +30,9 @@
     <string name="btn_hw_43">#43 Recycler View EditText</string>
     <string name="input_data">Input Data</string>
     <string name="submit_data">Submit</string>
+    <string name="btn_44">#44 RecyclerView with ClickListener</string>
+    <string name="text_1" />
+    <string name="text_2" />
+    <string name="text_3" />
+    <string name="details">Details</string>
 </resources>
