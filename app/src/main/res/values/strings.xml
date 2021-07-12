@@ -5,7 +5,7 @@
     <string name="homeworks">Домашние зядания</string>
     <string name="text_hw">Домашние задания</string>
     <string name="btn_hw_41">#41 Drawable menu with fragments</string>
-    <string name="btn_hw_42">"#42 "</string>
+    <string name="btn_hw_42">"#42  Notifications "</string>
     <string name="text_lessons">Занятия с 41-50</string>
     <string name="btn_41">#41</string>
     <string name="btn_42">#42 Recycler View</string>
@@ -24,4 +24,6 @@
     <string name="fragment2">Fragment 2</string>
     <string name="fragment3">Fragment 3</string>
     <string name="view_holder" />
+    <string name="noteficatoin"></string>
+    <string name="btn_note">Note</string>
 </resources>

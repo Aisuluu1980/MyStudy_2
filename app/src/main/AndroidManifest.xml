@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyStudy_2">
-        <activity android:name=".ActivityRecyclerView"></activity>
+        <activity android:name=".ActivityNotifications"></activity>
+        <activity android:name=".ActivityRecyclerView" />
         <activity android:name=".ActivityNavigationDrawer" />
         <activity android:name=".ActivityFragment_3" />
         <activity android:name=".ActivityFragment_2" />
