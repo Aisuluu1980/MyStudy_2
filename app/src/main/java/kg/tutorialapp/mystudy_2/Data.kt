@@ -7,10 +7,12 @@ object Data {
         Item(3, "Dart", R.drawable.ic_baseline_coronavirus_24)
     )
 
-    fun getLongListOfItems(): MutableList<Item>{
-        val list = mutableListOf<Item>()
-        for (i in 0..50){
+    fun getLongListOfItems(): MutableList<Any>{
+        val list = mutableListOf<Any>()
+        for (i in 0..100){
             list.addAll(items)
+            if(i % 3 == 0)
+                list.add("https://dart.dev/tutorials")
         }
         return  list
     }

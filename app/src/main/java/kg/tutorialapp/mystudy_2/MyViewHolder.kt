@@ -6,9 +6,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_myviewholder.view.*
 
-class MyViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
+class MyViewHolder(itemView: View): BaseViewHolder<Any>(itemView) {
 
-    fun bind(item: Item){
+    override fun bind(item: Any){
+        item as Item
         itemView.run{
             icon.setImageResource(item.icon)
             text_viewholder.text = item.name

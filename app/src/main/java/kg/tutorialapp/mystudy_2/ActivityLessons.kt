@@ -7,11 +7,13 @@ import android.widget.Button
 
 class ActivityLessons : AppCompatActivity() {
     lateinit var btn_42: Button
+    lateinit var btn_43: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lessons)
         runLesson_42()
+        runLesson_43()
     }
 
     private fun runLesson_42() {
@@ -19,6 +21,13 @@ class ActivityLessons : AppCompatActivity() {
         btn_42.setOnClickListener {
             val recyclerLesson = Intent(this, ActivityRecyclerView::class.java)
             startActivity(recyclerLesson)
+        }
+    }
+    private fun runLesson_43() {
+        btn_43= findViewById(R.id.btn_43)
+        btn_43.setOnClickListener {
+            val recyclerLayoutManager = Intent(this, ActivityRecyclerView::class.java)
+            startActivity(recyclerLayoutManager)
         }
     }
 
