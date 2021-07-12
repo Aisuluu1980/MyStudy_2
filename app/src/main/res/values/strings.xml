@@ -41,4 +41,7 @@
     <string name="btn_hw_46">#46 Shared Preferences</string>
     <string name="btn_save">Сохранить</string>
     <string name="btn_delete">Удалить</string>
+    <string name="btn_hw_47">#47 Receiver</string>
+    <string name="btn_send">Send</string>
+    <string name="receiver">Receiver</string>
 </resources>
