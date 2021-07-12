@@ -11,7 +11,8 @@ class ActivityHomeworks : AppCompatActivity() {
     lateinit var btnHw_42: Button
     lateinit var btnHw_43: Button
     lateinit var btnHw_46: Button
-    lateinit var btnHw_47:Button
+    lateinit var btnHw_47: Button
+    lateinit var btnHw_49: Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,6 +23,16 @@ class ActivityHomeworks : AppCompatActivity() {
         runHw_43()
         runHw_46()
         runHw_47()
+        runHw_49()
+    }
+
+    private fun runHw_49() {
+        btnHw_49 = findViewById(R.id.btn_hw_49)
+        btnHw_49.setOnClickListener{
+            val hwSimpleService = Intent(this, ActivitySimpleService::class.java)
+            startActivity(hwSimpleService)
+        }
+
     }
 
     private fun runHw_47() {

@@ -44,4 +44,7 @@
     <string name="btn_hw_47">#47 Receiver</string>
     <string name="btn_send">Send</string>
     <string name="receiver">Receiver</string>
+    <string name="btn_hw_49">#49 Simple Service</string>
+    <string name="service">Service</string>
+    <string name="text_service">Text Service</string>
 </resources>

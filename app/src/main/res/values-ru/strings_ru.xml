@@ -43,5 +43,8 @@
     <string name="btn_delete">Удалить</string>
     <string name="btn_hw_47">#47 Receiver</string>
     <string name="btn_send">Отправить</string>
-    <string name="receiver">Получить</string>
+    <string name="receiver">Получатель</string>
+    <string name="btn_hw_49">#49 Простой Сервис</string>
+    <string name="service">Сервис</string>
+    <string name="text_service">Текст сервиса</string>
 </resources>
