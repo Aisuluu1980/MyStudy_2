@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kg.tutorialapp.mystudy_2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyStudy_2">
+        <activity android:name=".ActivityNavigationDrawer"></activity>
+        <activity android:name=".ActivityFragment_3" />
+        <activity android:name=".ActivityFragment_2" />
+        <activity android:name=".ActivityFragment_1" />
+        <activity android:name=".ActivityFragments" />
+        <activity android:name=".ActivityHomeworks" />
+        <activity android:name=".ActivityLessons" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
